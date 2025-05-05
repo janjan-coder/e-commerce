@@ -1,0 +1,11 @@
+#navbarmain{
+    color: white;
+}
+#Premium_outlets{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-style: solid white 3px;
+}
+#a:hover{
+    color: black;
+}
