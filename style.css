@@ -72,10 +72,28 @@
     margin-bottom: 20px;
     
 }
+#shoes_men7{
+    height: 400px;
+    margin-bottom: 20px;
+    
+}
+#shoes_men8{
+    height: 400px;
+    margin-bottom: 20px;
+    
+}
+#shoes_men9{
+    height: 400px;
+    margin-bottom: 20px;
+    
+}
 #firstDiv{
     margin-bottom: 125px;
     justify-content: center;
 }
 #navbarmain li:hover{
+    text-decoration: underline yellow 3px;
+}
+*dropdown:hover{
     text-decoration: underline yellow 3px;
 }
