@@ -1,45 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    <LINK REL="stylesheet" href="style.css"></LINK>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <LINK REL="stylesheet" href="style.css">
+    </LINK>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/3cc289052a.js" crossorigin="anonymous"></script>
 </head>
 <nav class="navbar navbar-expand-md bg-dark text-white" id="navbarmain">
     <p align="center" id="Premium_outlets">PREMIUM OUTlETS</p>
-    <ul class="navbar-nav ms-auto " >
+    <ul class="navbar-nav ms-auto ">
         <li class="nav-item unstyled text-white"><a class="nav-link text-white" href="#">HOME</a></li>
         <div class="dropdown">
-        <button type="button" class="btn btn-black text-white" data-bs-toggle="dropdown">STORES</button>
-       <ul class="dropdown-menu bg-black text-white ">
-        <li class="dropdown-item"><a href="PttStore.html" class="dropdown-link text-white text-decoration-none">PTT</a></li>
-        <li class="dropdown-item"><a href="SoaStore.html" class="dropdown-link text-white text-decoration-none">SOA</a></li>
-        <li class="dropdown-item"><a href="clarkstore.html" class="dropdown-link text-white text-decoration-none">ClARK</a></li>
-       </ul>
+            <button type="button" class="btn btn-black text-white" data-bs-toggle="dropdown">STORES</button>
+            <ul class="dropdown-menu bg-black text-white ">
+                <li class="dropdown-item"><a href="PttStore.html"
+                        class="dropdown-link text-white text-decoration-none">PTT</a></li>
+                <li class="dropdown-item"><a href="SoaStore.html"
+                        class="dropdown-link text-white text-decoration-none">SOA</a></li>
+                <li class="dropdown-item"><a href="clarkstore.html"
+                        class="dropdown-link text-white text-decoration-none">ClARK</a></li>
+            </ul>
         </div>
         <div class="dropdown">
-       <button type="button" class="btn btn-black text-white" data-bs-toggle="dropdown">SHOES</button>
-       <ul class="dropdown-menu bg-black ">
-        <li class="dropdown-item"><a href="" class="dropdown-link text-white text-decoration-none">MEN</a></li>
-        <li class="dropdown-item"><a href="" class="dropdown-link text-white text-white text-decoration-none">Women</a></li>
-        <li class="dropdown-item"><a href="" class="dropdown-link text-white text-white text-decoration-none">KIDS</a></li>
-       </ul>
+            <button type="button" class="btn btn-black text-white" data-bs-toggle="dropdown">SHOES</button>
+            <ul class="dropdown-menu bg-black ">
+                <li class="dropdown-item"><a href="index.html"
+                        class="dropdown-link text-white text-decoration-none">MEN</a></li>
+                <li class="dropdown-item"><a href=""
+                        class="dropdown-link text-white text-white text-decoration-none">Women</a></li>
+                <li class="dropdown-item"><a href=""
+                        class="dropdown-link text-white text-white text-decoration-none">KIDS</a></li>
+            </ul>
         </div>
-        <li class="nav-item unstyled"><a class="nav-link text-white" href="#">About us</a></li>
+        <li class="nav-item unstyled"><a class="nav-link text-white" href="aboutus.html">About us</a></li>
         <form action="login.php" method="post">
-        <button type="submit" class="bg-black text-white" title="click here to login to your account">Click here to login</button>
+            <button type="submit" class="bg-black text-white" title="click here to login to your account">Click here to
+                login</button>
         </form>
-    </nav>
-    </ul>
+</nav>
+</ul>
 
 <body>
-   <div class="container-fluid d-flex">
-    <div class="container"></div>
-   </div> 
+    <p align="center" class="h2 my-4">Men's Shoes</p>
 
-   
+    <div class="container-fluid d-flex">
+
+        <div class="container-fluid d-flex" id="firstDiv">
+
+            <div class="container px-3">
+                <img src="https://static.nike.com/a/images/t_default/02200fe3-db62-4688-b63b-bdb8e40ba6f6/GIANNIS+IMMORTALITY+3+EP.png"
+                    class="img-fluid mx-auto d-block" id="shoes_men1">
+                <p class="h4" align="center">Giannis Immortality 3</p>
+                <p class="h2" align="center">P 4,295.00 </p>
+                <button class="btn btn-warning mx-auto d-block"><i class="fa-solid fa-cart-shopping"></i>Add to
+                    cart</button>
+                <p class="h6" align="center">"Built for relentless energy and smooth transitions, the Nike Giannis
+                    Immortality 3 blends speed, support, and style. Inspired by the unstoppable game of Giannis
+                    Antetokounmpo, this low-profile basketball shoe features a breathable mesh upper, responsive
+                    cushioning, and a unique traction pattern designed for quick cuts and Euro steps. Whether you're
+                    dominating the court or leveling up your streetwear, the Immortality 3 delivers MVP-level
+                    performance with every step."</p>
+            </div>
+            <div class="container px-3">
+                <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/bde0b63f-3d80-4dd5-8901-70fcd838195f/NIKE+AIR+MAX+SC+%28GS%29.png"
+                    class="img-fluid mx-auto d-block" id="shoes_men2">
+                <p class="h4" align="center">Nike Air Max SC</p>
+                <p class="h2" align="center">P 3,495.00 </p>
+                <button class="btn btn-warning mx-auto d-block"><i class="fa-solid fa-cart-shopping"></i>Add to
+                    cart</button>
+                <p class="h6">The Nike Air Max SC delivers timeless style and all-day comfort in a versatile silhouette.
+                    Crafted with a mix of real and synthetic leather, mesh, and durable textiles, it offers
+                    breathability and structure in equal measure. The visible Max Air unit in the heel provides
+                    lightweight cushioning, while the foam midsole and rubber outsole ensure smooth transitions and
+                    long-lasting traction. Whether you're on the move or off-duty, the Air Max SC keeps your look
+                    classic and your steps cushioned.</p>
+            </div>
+            <div class="container px-3">
+                <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/4ab4924f-43d5-47f5-925e-92dd480a507e/NIKE+AIR+MAX+EXCEE.png"
+                    class="img-fluid mx-auto d-block" id="shoes_men3">
+                <p class="h4" align="center">Nike Air Max Excee</p>
+                <p class="h2" align="center">P 4,495.00</p>
+                <button class="btn btn-warning mx-auto d-block"><i class="fa-solid fa-cart-shopping"></i>Add to
+                    cart</button>
+                <p class="h6">Inspired by the iconic Air Max 90, the Nike Air Max Excee offers a modern twist on a
+                    classic. With its elongated design lines, visible Air unit, and mixed-material upper, it blends
+                    retro style with everyday comfort. The lightweight cushioning and durable rubber outsole make it
+                    perfect for all-day wear, while the fresh, updated silhouette ensures you stand out wherever you go.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid d-flex">
+        <div class="container px-3" id="shoes_1">
+            <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/449771ed-2182-4572-807e-e41c3e55d3b6/BIG+NIKE+LOW.png"
+                class="img-fluid mx-auto d-block" id="shoes_men4">
+            <p class="h4" align="center">BIG NIKE LOW</p>
+            <p class="h2" align="center">P 4,695.00 </p>
+            <button class="btn btn-warning mx-auto d-block"><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+            <p class="h6">"The Big Nike Low brings classic court heritage to the streets with a bold, low-profile
+                design. Featuring premium materials, crisp overlays, and the iconic Swoosh, it delivers everyday comfort
+                with standout style. Whether you're hitting the pavement or making a statement, the Big Nike Low keeps
+                your look fresh and your step confident."</p>
+
+        </div>
+        <div class="container px-3" id="shoes_2">
+            <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/2885ab2a-be85-4cd4-a2b0-d7b1072409c0/NIKE+VARSITY+LEATHER+%28GS%29.png"
+                id="shoes_men5" class="img mx-auto d-block">
+            <p class="h4" align="center">Nike Varsity</p>
+            <p class="h2" align="center">P 2,795.00</p>
+            <button class="btn btn-warning mx-auto d-block"><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+            <p class="h6">Bring everyday performance and timeless style together with the Nike Varsity shoes. Built for comfort and durability, these kicks feature lightweight cushioning, breathable mesh uppers, and a classic silhouette that pairs easily with any fit. Whether you're hitting the gym, the streets, or just keeping it casual, the Nike Varsity delivers all-day support with a clean, athletic look.</p>
+s
+        </div>
+    <!--Nike Court vision Low Next-->
+        <div class="container px-3" id="shoes_3">
+            <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/3488f44b-b770-4b14-9468-7b09118d85a5/NIKE+COURT+VISION+LO.png" class="img mx-auto d-block"
+                id="shoes_men6">
+                <p class="h4" align="center">Nike Court vision Low Next</p>
+                <p class="h2" align="center">P   3,495.00 </p>
+                <button class="btn btn-warning mx-auto d-block"><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+                <p class="h6">The Nike Court Vision Low Next Nature blends retro basketball style with modern, eco-conscious design. Inspired by classic court sneakers, this low-top features a sleek synthetic leather upper made with at least 20% recycled materials by weight. Perforations on the toe and sides add breathability, while the padded collar and durable rubber outsole ensure all-day comfort and traction. Sporty, clean, and built for everyday wear — it's the perfect mix of heritage vibes and modern sustainability</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
